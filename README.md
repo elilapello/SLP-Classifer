@@ -8,7 +8,8 @@ I went with a Single Layer Perceptron for this project due to its simplicty and 
 ### 3. Training the Perceptron
 During training the perceptrona adjusts its weights based on the error calculated between its prediction and the correct label. The perceptron was trained by iterating over the entire training dataset for a set number of epochs. I found that increasing the number of epochs provided minimal to no improvement of performance. 
 ### 4. Testing and Evaluation
-After the perceptron was trained I tested it on unseen data from the testing portion of the MNIST dataset. The perceptron correctly classified ~99.91% of images it was given.![Percent Image](images/percent_classified.jpg)
+After the perceptron was trained I tested it on unseen data from the testing portion of the MNIST dataset. The perceptron correctly classified ~99.91% of images it was given.
+![Percent Image](images/percent_classified.jpg)
 ### Future Improvements
 - Expand the model to classify digits 0-9 from MNSIT
 - Implement a multi-layer perceptron
